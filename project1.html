@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="proj.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tool">
+        <div class="form-group">
+          <label for="all">Radius <span id="span">10px</span> </label>
+          <input type="range" name="" id="all" value="10" min="0" max="260" />
+          <label for="bordersize"
+            >border size <span id="span2">0px</span>
+          </label>
+          <input
+            type="range"
+            name=""
+            id="bordersize"
+            value="1"
+            min="0"
+            max="10"
+          />
+          <select name="style" id="select">
+            <option value="none" disablede>slect your style</option>
+
+            <option value="solid">solid</option>
+            <option value="dotted">dotted</option>
+            <option value="dashed">dashed</option>
+            <option value="groove">groove</option>
+            <option value="double">double</option>
+            <option value="none">none</option>
+          </select>
+          <select name="color" id="colorpicker">
+            <option value="black" disablede>slect your color</option>
+
+            <option value="red">red</option>
+            <option value="grey">grey</option>
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="green">green</option>
+            <option value="violet">violet</option>
+          </select>
+          <textarea name="" id="txt"></textarea>
+          <button id="btncopy">copy</button>
+        </div>
+      </div>
+    </div>
+    <script src="projects.js"></script>
+  </body>
+</html>
